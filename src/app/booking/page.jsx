@@ -1,5 +1,5 @@
 "use client";
-import { steps } from "@/contants/appdata";
+import { steps } from "@/constants/appdata";
 import React from "react";
 import Link from "next/link";
 import { useForm } from "react-hook-form";

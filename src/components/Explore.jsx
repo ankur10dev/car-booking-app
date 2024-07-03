@@ -1,7 +1,7 @@
-import styles from "@/contants/styles";
+import styles from "@/constants/styles";
 import React from "react";
 import TitleText from "./TitleText";
-import { exploreWorlds } from "@/contants/appdata";
+import { exploreWorlds } from "@/constants/appdata";
 import ExploreCard from "./ExploreCard";
 
 const Explore = () => {

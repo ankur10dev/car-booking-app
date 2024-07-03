@@ -7,6 +7,7 @@ export const staggerContainer = (staggerChildren, delayChildren) => ({
     },
   },
 });
+
 export const planetVariants = (direction) => ({
   hidden: {
     x: direction === "left" ? "-100%" : "100%",
@@ -22,6 +23,7 @@ export const planetVariants = (direction) => ({
     },
   },
 });
+
 export const textContainer = {
   hidden: {
     opacity: 0,

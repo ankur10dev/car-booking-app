@@ -2,7 +2,7 @@
 import React, { useMemo, useState } from "react";
 import { Form } from "./ui/form";
 import DateTimeForm from "./DateTimeForm";
-import { pickupTime } from "@/contants/appdata";
+import { pickupTime } from "@/constants/appdata";
 import SelectForm from "./SelectForm";
 import { Country, State, City } from "country-state-city";
 import CitySelect from "./CitySelect";

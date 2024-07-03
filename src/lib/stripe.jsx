@@ -31,14 +31,8 @@ export const PaymentMethod = async (body) => {
       cancel_url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/cancel`,
     });
 
-    if (session) {
-      console.log("Session URL: ", session.url); // Debugging line
-      return session.url;
-    } else {
-      throw new Error("Failed to create a session");
-    }
+    if (session) return session.url;
   } catch (error) {
-    console.error("Error in PaymentMethod: ", error); // Improved error logging
-    throw error; // Re-throw the error to handle it further up the chain if needed
+    console.error("something went wrong");
   }
 };

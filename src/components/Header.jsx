@@ -1,7 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import { links } from "@/contants/appdata";
+import { links } from "@/constants/appdata";
+
 import { usePathname } from "next/navigation";
 const Header = () => {
   const pathname = usePathname();

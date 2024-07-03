@@ -8,7 +8,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import autoplay from "embla-carousel-autoplay";
-import { profile } from "@/contants/appdata";
+import { profile } from "@/constants/appdata";
 import { Card, CardContent } from "@/components/ui/card";
 
 const Carousels = () => {

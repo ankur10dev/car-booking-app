@@ -1,6 +1,6 @@
+import React from "react";
 import Banners from "@/components/Banners";
 import Insights from "@/components/Insights";
-import React from "react";
 
 const Ourfleet = () => {
   return (

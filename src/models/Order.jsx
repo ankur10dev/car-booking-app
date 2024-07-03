@@ -1,5 +1,7 @@
+// Step 2: Import Mongoose
 import { Schema, model, models } from "mongoose";
 
+// Step 3: Define the schema for the order
 const orderSchema = new Schema({
   pickupdate: {
     type: String,
@@ -62,4 +64,6 @@ const orderSchema = new Schema({
     required: true,
   },
 });
+
+// Step 4: Export the model based on the schema
 export default models.Order || model("Order", orderSchema);

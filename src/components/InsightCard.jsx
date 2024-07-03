@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { fadeIn } from "@/contants/motion";
+import { fadeIn } from "@/constants/motion";
 import { useRouter, useSearchParams } from "next/navigation";
 
 const InsightCard = ({ imgUrl, title, subtitle, index, isForm, form }) => {

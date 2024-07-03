@@ -1,6 +1,6 @@
 import React from "react";
 import TitleText from "./TitleText";
-import { homeCards } from "@/contants/appdata";
+import { homeCards } from "@/constants/appdata";
 
 const OurObjective = () => {
   return (

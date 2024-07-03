@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { textVariant2 } from "@/contants/motion";
+import { textVariant2 } from "@/constants/motion";
 const TitleText = ({ title, textStyles }) => {
   return (
     <motion.h2
