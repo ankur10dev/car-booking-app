@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { staggerContainer } from "@/contants/motion";
+import { staggerContainer } from "@/constants/motion";
 import TitleText from "./TitleText";
-import styles from "@/contants/styles";
+import styles from "@/constants/styles";
 
 const Service = ({ service }) => {
   return (
