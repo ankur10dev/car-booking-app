@@ -72,7 +72,7 @@ export const sendEmail = async (options) => {
                   <p><span style="font-weight:bold">Phone Number:: </span>${
                     detail.phoneNumber
                   }</p>
-                  <p><span style="font-weight:bold">Comment: </span>${
+                  <p><span style="font-weight:bold">Address: </span>${
                     detail.Address || ""
                   }</p>
                 </div>
