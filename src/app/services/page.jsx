@@ -1,7 +1,7 @@
 import Banners from "@/components/Banners";
 import Service from "@/components/Service";
 import Subfooter from "@/components/Subfooter";
-import { serviceList } from "@/contants/appdata";
+import { serviceList } from "@/constants/appdata";
 import React from "react";
 
 const Services = () => {
